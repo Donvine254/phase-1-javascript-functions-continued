@@ -13,8 +13,8 @@ function mondayWork(activity = "go to the office") {
     return `This Monday, I will ${activity}.`;
   }
 }
-function wrapAdjective(flair = "*") {
+function wrapAdjective(highlight = "*") {
   return function (adjective = "special") {
-    return `You are ${flair}${adjective}${flair}!`;
+    return `You are ${highlight}${adjective}${highlight}!`;
   };
 }
